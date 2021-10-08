@@ -1,0 +1,23 @@
+{
+  "name": "heroku-shinymanager-app",
+  "stack": "heroku-20",
+  "description": "Example project for using shinymanager on Heroku.",
+  "keywords": [
+    "r",
+    "shiny",
+    "shinymanager"
+  ],
+  "repository": "https://github.com/virtualstaticvoid/heroku-shinymanager-app",
+  "logo": "https://github.com/virtualstaticvoid/heroku-shinymanager-app/raw/main/logo.png",
+  "success_url": "/",
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "vsv/heroku-buildpack-r"
+    }
+  ]
+}
